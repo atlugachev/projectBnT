@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Автосалон</title>
+</head>
+<body>
+
+    <!-- Шапка -->
+    <header class="header">
+      <div class="video-container">
+          <video autoplay muted loop class="background-video">
+              <source src="webSports/Запись экрана 2024-12-19 в 23.27.22 2.mov" type="video/mp4">
+              Ваш браузер не поддерживает видео.
+          </video>
+      </div>
+      <div class="header-content">
+          <h1>B&T</h1>
+      </div>
+    </header>
+
+    <!-- Главное меню -->
+    <div class="menu">
+        <a href="#">Главная</a>
+        <div class="dropdown">
+            <button class="dropbtn">Автомобили по категориям</button>
+            <div class="dropdown-content">
+                <a href="#">Легковые автомобили</a>
+                <a href="#">Кроссоверы</a>
+                <a href="#">Внедорожники</a>
+                <a href="#">Пикапы</a>
+                <a href="#">Электрические автомобили</a>
+                <a href="#">Гибриды</a>
+                <a href="#">Спортивные автомобили</a>
+                <a href="#">Минивэны</a>
+            </div>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">Популярные марки</button>
+            <div class="dropdown-content">
+                <a href="#">Toyota</a>
+                <a href="#">Volkswagen</a>
+                <a href="#">BMW</a>
+                <a href="#">Mercedes-Benz</a>
+                <a href="#">Audi</a>
+                <a href="#">Hyundai</a>
+                <a href="#">Kia</a>
+                <a href="#">Renault</a>
+            </div>
+        </div>
+
+        <a href="#">Акции</a>
+        <a href="#">Услуги</a>
+        <a href="#">Контакты</a>
+    </div>
+
+    <!-- Главная страница -->
+    <div class="content">
+        <h2 class="section-title">Добро пожаловать в наш автосалон!</h2>
+        <p>Мы предлагаем широкий выбор автомобилей различных категорий и марок. Все автомобили проверены, сертифицированы и готовы к эксплуатации. Выберите свой новый автомобиль прямо сейчас!</p>
+    </div>
+
+    <!-- Категории автомобилей -->
+    <div class="category content">
+        <h2 class="section-title">Автомобили по категориям</h2>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Легковые автомобили">
+            <h3>Легковые автомобили</h3>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Кроссоверы">
+            <h3>Кроссоверы</h3>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Внедорожники">
+            <h3>Внедорожники</h3>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Пикапы">
+            <h3>Пикапы</h3>
+        </div>
+    </div>
+
+    <!-- Популярные марки -->
+    <div class="brands content">
+        <h2 class="section-title">Популярные марки</h2>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Toyota">
+            <h3>Toyota</h3>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Volkswagen">
+            <h3>Volkswagen</h3>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="BMW">
+            <h3>BMW</h3>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/200" alt="Mercedes-Benz">
+            <h3>Mercedes-Benz</h3>
+        </div>
+    </div>
+
+    <!-- Акции и скидки -->
+    <div class="promotions content">
+        <h2>Акции и скидки</h2>
+        <p>Не упустите выгодные предложения! Скидки на новые автомобили до 20%. Узнайте подробнее на нашем сайте или в салоне.</p>
+    </div>
