@@ -1,3 +1,4 @@
+
 /* Сброс стилей */
 * {
     margin: 0;
@@ -84,35 +85,42 @@ header p {
 
 /* Главное меню */
 .menu {
-    background-color: #333;
+    background-color: #000000;
     overflow: hidden;
+    padding: 20px;
 }
 
 .menu a {
+    background-color: #363636;
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 16px 20px;
     text-decoration: none;
+    border-radius: 1%;
 }
 
 .menu a:hover {
-    background-color: #575757;
+    background-color: grey;
 }
 
 .dropdown {
+    border-radius: 1%;
     float: left;
     overflow: hidden;
 }
 
 .dropdown .dropbtn {
-    background-color: #333;
+    background-color: #363636;
     color: white;
-    padding: 14px 20px;
+    padding: 16px 20px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+}
+.dropdown .dropbtn:hover {
+    background-color: grey;
 }
 
 .dropdown-content {
@@ -131,7 +139,7 @@ header p {
 }
 
 .dropdown-content a:hover {
-    background-color: #575757;
+    background-color: grey;
 }
 
 .dropdown:hover .dropdown-content {
@@ -185,37 +193,6 @@ header p {
 .promotions h2 {
     font-size: 26px;
     color: #333;
-}
-
-/* Форма обратной связи */
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #333;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #575757;
 }
 
 /* Адаптивный дизайн */
